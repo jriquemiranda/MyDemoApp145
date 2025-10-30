@@ -1,0 +1,6 @@
+Instalações de Configurações
+- Appium Server: Controlar o ambiente de automação 
+- Apk Info:  Descobrir informações sobre o aplicativo
+- Appium Inspector: Mapear elementos
+- Android Studio: SDK Manager e Emuladores
+- Saucelabs.com: Serviço de device farm

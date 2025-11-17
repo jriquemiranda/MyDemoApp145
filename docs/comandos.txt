@@ -1,0 +1,28 @@
+Instalação do Appium de forma global
+    npm install -g appium
+Verificando a versão
+    appium --version
+Instalação do driver
+    IOS:    appium driver install xcuitest
+    Andoid: appium driver install uiautomator2
+Verificando os drivers instalados
+    appium driver list --installed
+Rodar o Appium
+    appium
+
+Inicia o projeto
+    npm init -y
+Instalação  do pacote appium
+    npm install appium
+Instalação do driver do appium
+    appium driver install uiautomator2
+Instação das bibliotecas
+    npm install @wdio/cli @wdio/local-runner @wdio/mocha-framework @wdio/spec-reporter --save
+Criação do arquivo de configuração do wdio
+    npx wdio config
+Execução do projeto
+    node tests/comprar_mochila.spec.js
+
+Restaurando a versão sem o BIDI (Instalar a versão 8)
+    npm remove webdriver webdriverio @wdio/utils
+    npm install webdriverio@8 webdriver@8

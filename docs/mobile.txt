@@ -4,3 +4,7 @@ Instalações de Configurações
 - Appium Inspector: Mapear elementos
 - Android Studio: SDK Manager e Emuladores
 - Saucelabs.com: Serviço de device farm
+
+
+appPackage:    com.saucelabs.mydemoapp.android
+appActivities: com.saucelabs.mydemoapp.android.view.activities.SplashActivity
